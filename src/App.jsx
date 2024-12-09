@@ -1,6 +1,25 @@
-
 import "./App.css";
+import { Routes, Route } from "react-router";
+
+//pages
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import HomePage from "./pages/HomePage";
+import WorkPage from "./pages/WorkPage";
+import NavBar from "./componentes/NavBar";
+import Footer from "./componentes/Footer";
 
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/work" element={<WorkPage />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+      <Footer />
+    </>
+  );
 }
