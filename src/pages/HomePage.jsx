@@ -4,6 +4,7 @@ import iphoneHighclass from "../assets/imagenes/iphone-highclass.png";
 import desktopKatia from "../assets/imagenes/desktop-katia.png"
 import wireframesBarca from "../assets/imagenes/wireframes-barca.png"
 import iphoneAgora from "../assets/imagenes/iphone-agora.png"
+import ProjectsList from "../componentes/ProjectList";
 
 export default function HomePage() {
   return (
@@ -42,7 +43,7 @@ export default function HomePage() {
         className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
       ></div>
 
-      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8 mb-12">
         <p className="mx-auto my-12 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
           Recent work
         </p>
@@ -132,6 +133,14 @@ export default function HomePage() {
             <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
           </div>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8 mb-12">
+        <p className="mx-auto my-12 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
+          More projects
+        </p>
+
+        <ProjectsList />
       </div>
     </div>
   );
