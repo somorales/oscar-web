@@ -1,10 +1,11 @@
 import React from "react";
 import cat from "../assets/imagenes/cat.svg";
 import iphoneHighclass from "../assets/imagenes/iphone-highclass.png";
-import desktopKatia from "../assets/imagenes/desktop-katia.png"
-import wireframesBarca from "../assets/imagenes/wireframes-barca.png"
-import iphoneAgora from "../assets/imagenes/iphone-agora.png"
+import desktopKatia from "../assets/imagenes/desktop-katia.png";
+import wireframesBarca from "../assets/imagenes/wireframes-barca.png";
+import iphoneAgora from "../assets/imagenes/iphone-agora.png";
 import ProjectsList from "../componentes/ProjectList";
+import { Link } from "react-router";
 
 export default function HomePage() {
   return (
@@ -49,89 +50,96 @@ export default function HomePage() {
         </p>
 
         <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-2 lg:grid-rows-2">
-          <div className="relative lg:row-span-2 bg-[#BFDAFD] rounded-3xl max-h-[600px]">
-            <div className="relative flex h-full flex-col overflow-hidden">
-              <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
-                <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#014FB5] max-lg:text-center">
-                  How to help students to improve their academic knowledge?
-                </h2>
-                <div className="flex flex-row">
-                  <p className="flex-auto mt-6 max-w-lg text-lg text-[#014FB5] max-lg:text-center">
-                    Master's Final Project
-                  </p>
-                  <img
-                    className="flex-auto object-contain h-[25rem]"
-                    src={iphoneHighclass}
-                    alt=""
-                  />
+          <Link to="/HighClass">
+            <div className="relative lg:row-span-2 bg-[#BFDAFD] rounded-3xl max-h-[600px]">
+              <div className="relative flex h-full flex-col overflow-hidden">
+                <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
+                  <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#014FB5] max-lg:text-center">
+                    How to help students to improve their academic knowledge?
+                  </h2>
+                  <div className="flex flex-row">
+                    <p className="flex-auto mt-6 max-w-lg text-lg text-[#014FB5] max-lg:text-center">
+                      Master's Final Project
+                    </p>
+                    <img
+                      className="flex-auto object-contain h-[25rem]"
+                      src={iphoneHighclass}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
+              <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
             </div>
-            <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
-          </div>
+          </Link>
+          <Link to="/KatiaDental">
+            <div className="relative lg:row-span-2 bg-[#A3E6E6] rounded-3xl max-h-[600px]">
+              <div className="relative flex h-full flex-col overflow-hidden">
+                <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
+                  <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#0B9B9B] max-lg:text-center">
+                    Improving web design and increasing leads for "Katia Dental"
+                  </h2>
+                  <div className="flex flex-col">
+                    <p className="flex-auto mt-6 max-w-lg text-lg text-[#0B9B9B] max-lg:text-center">
+                      Real client project
+                    </p>
+                    <img
+                      className="flex-auto object-contain h-[25rem]"
+                      src={desktopKatia}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
+            </div>
+          </Link>
 
-          <div className="relative lg:row-span-2 bg-[#A3E6E6] rounded-3xl max-h-[600px]">
-            <div className="relative flex h-full flex-col overflow-hidden">
-              <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
-                <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#0B9B9B] max-lg:text-center">
-                  Improving web design and increasing leads for "Katia Dental"
-                </h2>
-                <div className="flex flex-col">
-                  <p className="flex-auto mt-6 max-w-lg text-lg text-[#0B9B9B] max-lg:text-center">
-                    Real client project
-                  </p>
-                  <img
-                    className="flex-auto object-contain h-[25rem]"
-                    src={desktopKatia}
-                    alt=""
-                  />
+          <Link to="/FCBBarcelona">
+            <div className="relative lg:row-span-2 bg-[#FBB5C3] rounded-3xl max-h-[600px]">
+              <div className="relative flex h-full flex-col overflow-hidden">
+                <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
+                  <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#9E0925] max-lg:text-center">
+                    Wireframe design for FCB Barça Academy United States
+                  </h2>
+                  <div className="flex flex-col">
+                    <p className="flex-auto mt-6 max-w-lg text-lg text-[#9E0925] max-lg:text-center">
+                      Real client project
+                    </p>
+                    <img
+                      className="flex-auto object-contain h-[25rem] -mt-8"
+                      src={wireframesBarca}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
+              <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
             </div>
-            <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
-          </div>
+          </Link>
 
-          <div className="relative lg:row-span-2 bg-[#FBB5C3] rounded-3xl max-h-[600px]">
-            <div className="relative flex h-full flex-col overflow-hidden">
-              <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
-                <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#9E0925] max-lg:text-center">
-                  Wireframe design for FCB Barça Academy United States
-                </h2>
-                <div className="flex flex-col">
-                  <p className="flex-auto mt-6 max-w-lg text-lg text-[#9E0925] max-lg:text-center">
-                    Real client project
-                  </p>
-                  <img
-                    className="flex-auto object-contain h-[25rem] -mt-8"
-                    src={wireframesBarca}
-                    alt=""
-                  />
+          <Link to="/Agora">
+            <div className="relative lg:row-span-2 bg-[#D7C0F4] rounded-3xl max-h-[600px]">
+              <div className="relative flex h-full flex-col overflow-hidden">
+                <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
+                  <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#4C0AA0] max-lg:text-center">
+                    "Agora" App design for artists community
+                  </h2>
+                  <div className="flex flex-col">
+                    <p className="flex-auto mt-6 max-w-lg text-lg text-[#4C0AA0] max-lg:text-center">
+                      Freelance project (Prototype)
+                    </p>
+                    <img
+                      className="flex-auto object-contain h-[30rem]"
+                      src={iphoneAgora}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
+              <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
             </div>
-            <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
-          </div>
-
-          <div className="relative lg:row-span-2 bg-[#D7C0F4] rounded-3xl max-h-[600px]">
-            <div className="relative flex h-full flex-col overflow-hidden">
-              <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
-                <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#4C0AA0] max-lg:text-center">
-                  "Agora" App design for artists community 
-                </h2>
-                <div className="flex flex-col">
-                  <p className="flex-auto mt-6 max-w-lg text-lg text-[#4C0AA0] max-lg:text-center">
-                  Freelance project (Prototype)
-                  </p>
-                  <img
-                    className="flex-auto object-contain h-[30rem]"
-                    src={iphoneAgora}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
-          </div>
+          </Link>
         </div>
       </div>
 
