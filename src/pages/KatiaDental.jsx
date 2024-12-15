@@ -24,14 +24,12 @@ export default function KatiaDental() {
 
       < KatiaDentalProject />
       
-      <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-3xl bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                More info
-              </a>
-            </div>
+      <div className="my-10 flex flex-col items-center justify-center gap-2">
+        {/* <p className="text-red-500 text-sm">Link a behance</p> */}
+        <button className="bg-white border-2 border-black rounded-3xl hover:bg-gray-200 px-3.5 py-2.5 shadow-sm w-60 font-bold">
+          More info
+        </button>
+      </div>
 
     </div>
   )
