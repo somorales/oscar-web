@@ -8,27 +8,30 @@ export default function HighClass() {
       <div className="min-h-screen bg-blue-400 flex items-center p-8 lg:p-16">
         {/* Left side content */}
         <div>
-          <h1 className="text-4xl lg:text-6xl font-bold text-blue-900">
+          <h1 className="lg:text-7xl font-bold text-blue-900 pb-4">
             HighClass
           </h1>
-          <p className="text-xl lg:text-2xl text-blue-800 max-w-md">
+          <p className="lg:text-3xl text-blue-800 max-w-md">
             Helping students to improve their academic knowledge
           </p>
         </div>
 
         {/* Right side placeholder for phone image */}
         <div className="flex flex-1 justify-end">
-          <img src={phone} alt="phone" className="h-[600px] w-64 lg:w-72 object-cover" />
+          <img
+            src={phone}
+            alt="phone"
+            className="h-[600px] w-64 lg:w-72 object-cover"
+          />
         </div>
       </div>
+
       <HighClassProject />
-      <div className="mt-10 flex items-center justify-center gap-x-6">
-        <a
-          href="#"
-          className="rounded-3xl bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-        >
+      <div className="my-10 flex flex-col items-center justify-center gap-2">
+        {/* <p className="text-red-500 text-sm">Link a behance</p> */}
+        <button className="bg-white border-2 border-black rounded-3xl hover:bg-gray-200 px-3.5 py-2.5 shadow-sm w-60 font-bold">
           More info
-        </a>
+        </button>
       </div>
     </div>
   );
