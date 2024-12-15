@@ -5,18 +5,18 @@ import screens from "../assets/imagenes/screens_highclass.png";
 
 export default function HighClassProyect() {
   return (
-    <div className="min-h-screen p-6 lg:p-8">
-      <div className="mx-auto">
+    <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48">
+      <div className="pt-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="w-full">
-            <div className="aspect-square p-4">
+            <div className="aspect-square py-4">
               <img
                 src={work}
                 alt="work"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="aspect-square p-4">
+            <div className="aspect-square py-4">
               <img
                 src={teamwork}
                 alt="team"
@@ -162,7 +162,7 @@ export default function HighClassProyect() {
           </div>
         </div>
 
-        <div className="aspect-auto mt-8 p-4">
+        <div className="aspect-auto mt-8 py-4">
           <img
             src={screens}
             alt="screens"

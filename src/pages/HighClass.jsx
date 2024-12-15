@@ -5,24 +5,28 @@ import HighClassProject from "../componentes/HighClassProject";
 export default function HighClass() {
   return (
     <div>
-      <div className="min-h-screen flex bg-blue-400 mx-auto">
-        {/* Left side content */}
-        <div>
-          <h1 className="lg:text-7xl font-bold text-blue-900 pb-4">
-            HighClass
-          </h1>
-          <p className="lg:text-3xl text-blue-800 max-w-md">
-            Helping students to improve their academic knowledge
-          </p>
-        </div>
+      <div className="bg-blue-400">
+        <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 min-h-screen grid grid-cols-2 items-end">
+          {/* Left side content */}
+          <div className="pb-[17rem]">
+            <div className="">
+              <h1 className="lg:text-7xl font-bold text-[#014FB5] pb-4">
+                HighClass
+              </h1>
+              <p className="lg:text-3xl text-[#014FB5] max-w-md">
+                Helping students to improve their academic knowledge
+              </p>
+            </div>
+          </div>
 
-        {/* Right side placeholder for phone image */}
-        <div className="">
-          <img
-            src={phone}
-            alt="phone"
-            className="h-[600px] w-64 lg:w-72 object-cover"
-          />
+          {/* Right side placeholder for phone image */}
+          <div className="flex justify-center pb-32">
+            <img
+              src={phone}
+              alt="phone"
+              className="h-[850px] object-cover"
+            />
+          </div>
         </div>
       </div>
 
