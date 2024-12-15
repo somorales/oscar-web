@@ -44,7 +44,7 @@ export default function HomePage() {
         className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
       ></div>
 
-      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8 mb-12">
+      <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-36 mb-12">
         <p className="mx-auto my-12 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
           Recent work
         </p>
@@ -143,7 +143,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8 mb-12">
+      <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-36 mb-12">
         <p className="mx-auto my-12 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
           More projects
         </p>
