@@ -33,25 +33,24 @@ const ExperienceSection = () => {
     },
   ];
   const skills = [
-    
-    'UX Research',
-    'UI Design',
-    'Wireframing',
-    'User Centered Design',
-    'Design Thinking',
-    'Figma',
-    'Photoshop',
-    'Illustrator',
+    "UX Research",
+    "UI Design",
+    "Wireframing",
+    "User Centered Design",
+    "Design Thinking",
+    "Figma",
+    "Photoshop",
+    "Illustrator",
 
-    'After Effects',
-    'Premiere',
-    'Miro',
-    'Slack',
-    'Figjam',
-    'Wordpress',
-    'Elementor',
-    'Landing Pages',
-    'Web design'
+    "After Effects",
+    "Premiere",
+    "Miro",
+    "Slack",
+    "Figjam",
+    "Wordpress",
+    "Elementor",
+    "Landing Pages",
+    "Web design",
   ];
 
   const experiences = [
@@ -105,7 +104,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto py-16 px-8 bg-white">
+    <div className="mx-auto py-16 bg-white max-w-container px-6 sm:px-8 lg:px-48">
       <h1 className="text-4xl font-bold mb-12">My Experience</h1>
 
       <section className="mb-12">
@@ -148,27 +147,25 @@ const ExperienceSection = () => {
           </ul>
         </section>
       ))}
-        <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-4xl font-bold mb-6">Skills</h1>
-      <div className="flex flex-wrap gap-3">
-        {skills.map((skill, index) => (
-          <span
-            key={index}
-            className="px-4 py-2 bg-amber-200 rounded-full text-black font-medium"
-          >
-            {skill}
-          </span>
-        ))}
+      <div className="">
+        <h1 className="text-4xl font-bold mb-6">Skills</h1>
+        <div className="flex flex-wrap gap-3">
+          {skills.map((skill, index) => (
+            <span
+              key={index}
+              className="px-4 py-2 bg-[#F4D06F] rounded-full text-black font-medium"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+
+        <div className="my-10 flex flex-col items-center justify-center gap-2">
+          <button className="bg-white border-2 border-black rounded-3xl hover:bg-gray-200 px-3.5 py-2.5 shadow-sm w-60 font-bold">
+            My resume
+          </button>
+        </div>
       </div>
-      <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-3xl bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Download my CV
-              </a>
-            </div>
-    </div>
     </div>
   );
 };
