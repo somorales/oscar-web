@@ -5,7 +5,7 @@ import HighClassProject from "../componentes/HighClassProject";
 export default function HighClass() {
   return (
     <div>
-      <div className="min-h-screen bg-blue-400 flex items-center p-8 lg:p-16">
+      <div className="min-h-screen flex bg-blue-400 mx-auto">
         {/* Left side content */}
         <div>
           <h1 className="lg:text-7xl font-bold text-blue-900 pb-4">
@@ -17,7 +17,7 @@ export default function HighClass() {
         </div>
 
         {/* Right side placeholder for phone image */}
-        <div className="flex flex-1 justify-end">
+        <div className="">
           <img
             src={phone}
             alt="phone"
