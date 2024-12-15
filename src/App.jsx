@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/" element={<HomePage />} />
-        <Route path="/HighClass" element={<HighClass />} />
+        <Route path="/high-class" element={<HighClass />} />
         <Route path="/KatiaDental" element={<KatiaDental />} />
         <Route path="/FCBBarcelona" element={<FcbBarcelona />} />
         <Route path="/Agora" element={<Agora />} />

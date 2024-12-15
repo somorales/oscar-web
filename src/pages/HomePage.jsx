@@ -50,8 +50,8 @@ export default function HomePage() {
         </p>
 
         <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-2 lg:grid-rows-2">
-          <Link to="/HighClass">
-            <div className="relative lg:row-span-2 bg-[#BFDAFD] rounded-3xl max-h-[600px]">
+          <Link to="/high-class">
+            <div className="relative lg:row-span-2 bg-[#BFDAFD] rounded-3xl h-[600px]">
               <div className="relative flex h-full flex-col overflow-hidden">
                 <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
                   <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#014FB5] max-lg:text-center">
@@ -73,7 +73,7 @@ export default function HomePage() {
             </div>
           </Link>
           <Link to="/KatiaDental">
-            <div className="relative lg:row-span-2 bg-[#A3E6E6] rounded-3xl max-h-[600px]">
+            <div className="relative lg:row-span-2 bg-[#A3E6E6] rounded-3xl h-[600px]">
               <div className="relative flex h-full flex-col overflow-hidden">
                 <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
                   <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#0B9B9B] max-lg:text-center">
@@ -96,7 +96,7 @@ export default function HomePage() {
           </Link>
 
           <Link to="/FCBBarcelona">
-            <div className="relative lg:row-span-2 bg-[#FBB5C3] rounded-3xl max-h-[600px]">
+            <div className="relative lg:row-span-2 bg-[#FBB5C3] rounded-3xl h-[600px]">
               <div className="relative flex h-full flex-col overflow-hidden">
                 <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
                   <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#9E0925] max-lg:text-center">
@@ -119,7 +119,7 @@ export default function HomePage() {
           </Link>
 
           <Link to="/Agora">
-            <div className="relative lg:row-span-2 bg-[#D7C0F4] rounded-3xl max-h-[600px]">
+            <div className="relative lg:row-span-2 bg-[#D7C0F4] rounded-3xl h-[600px]">
               <div className="relative flex h-full flex-col overflow-hidden">
                 <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
                   <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#4C0AA0] max-lg:text-center">
