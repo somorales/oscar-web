@@ -1,11 +1,9 @@
 import React from "react";
-import oscarLogo from "../assets/imagenes/oscar-logo.png";
 import oscarLogoBlanco from  "../assets/imagenes/oscar-logo-blanco.png"
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function NavBar() {
-  const navigate = useNavigate();
 
   return (
     <header className="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900 bg-[#392F5A]">
@@ -28,9 +26,9 @@ export default function NavBar() {
               <Link to="/about" className="ml-8 text-white hover:text-lg ">
                 About me
               </Link>
-              <Link className="ml-8 text-white hover:text-lg pl-[1.5rem]" to="/work">
+              <HashLink smooth className="ml-8 text-white hover:text-lg pl-[1.5rem]" to="/#work">
                 Work
-              </Link>
+              </HashLink>
 
               <Link className="ml-8 text-white hover:text-lg pl-[1.5rem]" to="/contact">
                 Contact

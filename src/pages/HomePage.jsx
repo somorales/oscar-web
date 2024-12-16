@@ -42,7 +42,7 @@ export default function HomePage() {
       ></div>
 
       <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 mb-12">
-        <p className="mx-auto my-12 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
+        <p id="work" className="mx-auto my-12 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
           Recent work
         </p>
 
