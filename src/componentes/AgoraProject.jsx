@@ -4,41 +4,40 @@ import screens from "../assets/imagenes/screens_agora.png";
 export default function AgoraProject() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto">
-        <div className="mb-6">
-          <div className="p-4">
-            <h2 className="text-l font-semibold mb-3">
-              How I can help artists to grow visibility and make connections
-              with other local or global artists? Let’s see how I did it with
-              “Agora”.
-            </h2>
-          </div>
+      <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48">
+        <div className="pt-20">
+          <h1 className="text-2xl font-bold mb-4">
+            How I can help artists to grow visibility and make connections with
+            other local or global artists? Let’s see how I did it with “Agora”.
+          </h1>
 
-          <h2 className="text-lg font-semibold mb-3">Goals:</h2>
-          <ul className="space-y-2">
-            <li className="flex items-start space-x-2">
-              <span className="text-blue-500 font-bold">•</span>
-              <span>
-                Facilitate artists an online space where they can share their
-                work
-              </span>
-            </li>
-            <li className="flex items-start space-x-2">
-              <span className="text-blue-500 font-bold">•</span>
-              <span>Interact with colleagues</span>
-            </li>
-            <li className="flex items-start space-x-2">
-              <span className="text-blue-500 font-bold">•</span>
-              <span>
-                Gain visibility and recognition Be part of an artistic and
-                creative community
-              </span>
-            </li>
-            <li className="flex items-start space-x-2">
-              <span className="text-blue-500 font-bold">•</span>
-              <span>Be part of an artistic and creative community</span>
-            </li>
-          </ul>
+          <div className="mb-6">
+            <h2 className="text-lg font-semibold mb-3">Goals:</h2>
+            <ul className="space-y-2">
+              <li className="flex items-start space-x-2">
+                <span className="text-black font-bold">•</span>
+                <span>
+                  Facilitate artists an online space where they can share their
+                  work
+                </span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <span className="text-black font-bold">•</span>
+                <span>Interact with colleagues</span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <span className="text-black font-bold">•</span>
+                <span>
+                  Gain visibility and recognition Be part of an artistic and
+                  creative community
+                </span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <span className="text-black font-bold">•</span>
+                <span>Be part of an artistic and creative community</span>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="mb-6">
@@ -65,9 +64,9 @@ export default function AgoraProject() {
                 interviews, surveys, and user persona creation to understand the
                 needs, pain points, and goals of the target audience, artists
                 seeking visibility, community, and collaboration. When I was
-                working in this phase, I detected an insight that came from
-                different artists: “I want something visually different, not
-                minimalistic design, maybe something out of the common rules
+                working in this phase, I <b>detected an insight</b> that came
+                from different artists: “I want something visually different,
+                not minimalistic design, maybe something out of the common rules
                 regarding the apps we use now”.
               </span>
             </li>
@@ -88,15 +87,18 @@ export default function AgoraProject() {
             <li className="flex items-start space-x-2">
               <span>
                 During the UI design phase, there were challenges in aligning
-                the client's vision with established UX/UI principles. The
-                client often had ideas that diverged from best practices, which
-                led to design friction. As a designer, I aimed to balance my
-                responsibility to create an intuitive, user-friendly interface
-                with the client's desire for a unique “out of the box” aesthetic
-                features. This required open communication and compromise, where
-                I explained the ideas behind UX/UI standards, such as visual
-                hierarchy, consistency, and accessibility, while remaining
-                flexible to incorporate the client's creative input.
+                the client's vision with established UX/UI principles.{" "}
+                <b>
+                  The client often had ideas that diverged from best practices{" "}
+                </b>
+                , which led to design friction. As a designer, I aimed to
+                balance my responsibility to create an intuitive, user-friendly
+                interface with the client's desire for a unique “out of the box”
+                aesthetic features. This required open communication and
+                compromise, where I explained the ideas behind UX/UI standards,
+                such as visual hierarchy, consistency, and accessibility, while{" "}
+                <b> remaining flexible</b> to incorporate the client's creative
+                input.
               </span>
             </li>
             <li className="flex items-start space-x-2">
@@ -105,17 +107,18 @@ export default function AgoraProject() {
                 because I wanted to validate and make sure that the design was
                 usable above all, but also meeting the standards of my client.
                 Real users were invited to interact with the app and after four
-                iterations we manage a balance between usability and the
+                iterations <b> we manage a balance</b> between usability and the
                 visuals.
               </span>
             </li>
           </ul>
         </div>
+
         <div className="mb-6">
           <h2 className="text-lg font-semibold mb-3"> Results: </h2>
           <ul className="space-y-2">
             <li className="flex items-start space-x-2">
-              <span className="text-blue-500 font-bold">•</span>
+              <span className="text-black font-bold">•</span>
               <span>
                 Agora is now at a significant milestone, with the project
                 reaching its happy path completion. The owner is actively
@@ -128,17 +131,14 @@ export default function AgoraProject() {
             </li>
           </ul>
         </div>
-        <div className="aspect-auto mt-8 p-4">
+        <div className="aspect-auto mt-8 py-4">
           <img
             src={screens}
             alt="screens"
             className="w-full h-full object-cover"
           />
         </div>
-
-
       </div>
-
     </div>
   );
 }
