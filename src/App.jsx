@@ -11,12 +11,10 @@ import FcbBarcelona from "./pages/FcbBarcelona";
 import Agora from "./pages/Agora";
 import NavBar from "./componentes/NavBar";
 import Footer from "./componentes/Footer";
-import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 
 export default function App() {
   return (
     <>
-      {/* <ScrollToHashElement behavior="smooth" inline="center" block="center" /> */}
       <NavBar />
       <Routes>
         <Route path="/about" element={<AboutPage />} />
