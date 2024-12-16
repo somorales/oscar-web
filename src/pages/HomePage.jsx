@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useContext } from "react";
 import cat from "../assets/imagenes/cat.svg";
 import iphoneHighclass from "../assets/imagenes/iphone-highclass.png";
 import desktopKatia from "../assets/imagenes/desktop-katia.png";
@@ -6,8 +7,18 @@ import wireframesBarca from "../assets/imagenes/wireframes-barca.png";
 import iphoneAgora from "../assets/imagenes/iphone-agora.png";
 import ProjectsList from "../componentes/ProjectList";
 import { Link } from "react-router";
+import { NavContext } from "../context/nav.context";
+import oscarLogoBlanco from "../assets/imagenes/oscar-logo-blanco.png";
 
 export default function HomePage() {
+  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+
+  useEffect(() => {
+    setBackgroundColor("bg-[#392F5A]");
+    setTextColor("text-white");
+    setLogo(oscarLogoBlanco)
+  });
+
   return (
     <div>
       <div className="bg-[#392F5A]">

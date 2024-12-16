@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useContext } from "react";
 import phone from "../assets/imagenes/Iphone_highclass.png";
 import HighClassProject from "../componentes/HighClassProject";
+import { NavContext } from "../context/nav.context";
+import oscarLogo from "../assets/imagenes/oscar-logo.png";
 
 export default function HighClass() {
+  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+
+  useEffect(() => {
+    setBackgroundColor("bg-blue-400");
+    setTextColor("text-black")
+    setLogo(oscarLogo)
+  });
+
   return (
     <div>
       <div className="bg-[#6EAAF7]">
