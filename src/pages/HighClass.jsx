@@ -6,12 +6,13 @@ import { NavContext } from "../context/nav.context";
 import oscarLogo from "../assets/imagenes/oscar-logo.png";
 
 export default function HighClass() {
-  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+  const { setBackgroundColor, setTextColor, setLogo, setBorderColor } = useContext(NavContext);
 
   useEffect(() => {
     setBackgroundColor("bg-[#6EAAF7]");
     setTextColor("text-black")
     setLogo(oscarLogo)
+    setBorderColor("border-black")
   });
 
   return (

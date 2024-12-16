@@ -6,7 +6,8 @@ const NavContext = createContext();
 function NavWrapper(props) {
   const [backgroundColor, setBackgroundColor] = useState("bg-[#392F5A]");
   const [textColor, setTextColor] = useState("text-white");
-  const [logo, setLogo] = useState(oscarLogo)
+  const [logo, setLogo] = useState(oscarLogo);
+  const [borderColor, setBorderColor] = useState("border-white");
 
   const ctx = {
     backgroundColor,
@@ -14,7 +15,9 @@ function NavWrapper(props) {
     textColor,
     setTextColor,
     logo,
-    setLogo
+    setLogo,
+    borderColor,
+    setBorderColor
   };
 
   return (

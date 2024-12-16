@@ -5,7 +5,7 @@ import { HashLink } from "react-router-hash-link";
 import { NavContext } from "../context/nav.context";
 
 export default function NavBar() {
-  const { backgroundColor, textColor, logo } = useContext(NavContext);
+  const { backgroundColor, textColor, logo, borderColor } = useContext(NavContext);
 
   return (
     <header
@@ -25,21 +25,21 @@ export default function NavBar() {
             </div>
           </div>
 
-          <div className="flex lg:justify-end lg:w-full text-lg font-normal">
+          <div className="flex lg:justify-end lg:w-full text-lg font-normal items-center text-center">
             <>
-              <Link to="/about" className={`ml-8 ${textColor} hover:text-lg`}>
+              <Link to="/about" className={`w-28 px-2 py-1 ml-8 ${textColor} hover:rounded-3xl hover:border hover:${borderColor} hover:font-semibold hover:shadow-sm`}>
                 About me
               </Link>
               <HashLink
                 smooth
-                className={`ml-8 ${textColor} hover:text-lg pl-[1.5rem]`}
+                className={`w-28 px-2 py-1 ml-8 ${textColor} hover:text-lg hover:rounded-3xl hover:border hover:${borderColor} hover:font-semibold hover:shadow-sm`}
                 to="/#work"
               >
                 Work
               </HashLink>
 
               <Link
-                className={`ml-8 ${textColor} hover:text-lg pl-[1.5rem]`}
+                className={`w-28 px-2 py-1 ml-8 ${textColor} hover:text-lg hover:rounded-3xl hover:border hover:${borderColor} hover:font-semibold hover:shadow-sm`}
                 to="/contact"
               >
                 Contact
