@@ -6,12 +6,13 @@ import oscarLogoBlanco from "../assets/imagenes/oscar-logo-blanco.png";
 import { NavContext } from "../context/nav.context";
 
 export default function ContactPage() {
-  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+  const { setBackgroundColor, setTextColor, setLogo, setBorderColor } = useContext(NavContext);
 
   useEffect(() => {
     setBackgroundColor("bg-[#392F5A]");
     setTextColor("text-white");
-    setLogo(oscarLogoBlanco)
+    setLogo(oscarLogoBlanco);
+    setBorderColor("border-white");
   });
   return (
     <div className="bg-[#392F5A] min-h-screen flex items-center content-center">

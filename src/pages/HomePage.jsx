@@ -11,12 +11,13 @@ import { NavContext } from "../context/nav.context";
 import oscarLogoBlanco from "../assets/imagenes/oscar-logo-blanco.png";
 
 export default function HomePage() {
-  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+  const { setBackgroundColor, setTextColor, setLogo, setBorderColor } = useContext(NavContext);
 
   useEffect(() => {
     setBackgroundColor("bg-[#392F5A]");
     setTextColor("text-white");
     setLogo(oscarLogoBlanco)
+    setBorderColor("border-white")
   });
 
   return (

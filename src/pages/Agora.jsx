@@ -7,12 +7,13 @@ import { NavContext } from "../context/nav.context";
 import oscarLogo from "../assets/imagenes/oscar-logo.png";
 
 export default function Agora() {
-  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+  const { setBackgroundColor, setTextColor, setLogo, setBorderColor } = useContext(NavContext);
 
   useEffect(() => {
     setBackgroundColor("bg-[#D7C0F4]");
     setTextColor("text-black")
     setLogo(oscarLogo)
+    setBorderColor("border-black")
   });
   
   return (

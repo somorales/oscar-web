@@ -30,12 +30,13 @@ export default function AboutPage() {
       items: ["Curiosity", "Sharp eye to detail", "Respectful", "Open minded"],
     },
   ];
-  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+  const { setBackgroundColor, setTextColor, setLogo, setBorderColor } = useContext(NavContext);
 
   useEffect(() => {
     setBackgroundColor("bg-[#392F5A]");
     setTextColor("text-white");
-    setLogo(oscarLogoBlanco)
+    setLogo(oscarLogoBlanco);
+    setBorderColor("border-white")
   });
 
   return (
