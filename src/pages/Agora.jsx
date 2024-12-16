@@ -1,13 +1,25 @@
-import React from "react";
+
+import React, { useEffect } from "react";
 import phone from "../assets/imagenes/screen_agora.png";
 import AgoraProject from "../componentes/AgoraProject";
+import { useContext } from "react";
+import { NavContext } from "../context/nav.context";
+import oscarLogo from "../assets/imagenes/oscar-logo.png";
 
 export default function Agora() {
+  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+
+  useEffect(() => {
+    setBackgroundColor("bg-[#D7C0F4]");
+    setTextColor("text-black")
+    setLogo(oscarLogo)
+  });
+  
   return (
     <div>
       <div className="bg-[#D7C0F4]">
         <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 min-h-screen grid grid-cols-2 items-end">
-          <div className="pb-[8rem]">
+          <div className="pb-[11rem]">
             <h1 className="lg:text-7xl font-bold text-[#5600C2] pb-4">Agora</h1>
             <p className="lg:text-3xl text-[#5600C2] max-w-md">
               Freelance project for an Artist in Barcelona

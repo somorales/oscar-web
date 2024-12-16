@@ -9,7 +9,7 @@ export default function HighClass() {
   const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
 
   useEffect(() => {
-    setBackgroundColor("bg-blue-400");
+    setBackgroundColor("bg-[#6EAAF7]");
     setTextColor("text-black")
     setLogo(oscarLogo)
   });
@@ -35,7 +35,7 @@ export default function HighClass() {
             <img
               src={phone}
               alt="phone"
-              className="h-[800px] object-cover"
+              className="h-[750px] object-cover"
             />
           </div>
         </div>
