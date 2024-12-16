@@ -19,7 +19,7 @@ export default function ProjectCard(props) {
             </span>
           ))}
         </div>
-        <a href="#" className="text-2xl text-gray-900 font-bold hover:underline mx-8">
+        <a href="#" className="text-2xl text-gray-900  hover:text-[#52B6B9] font-bold hover:underline mx-8">
           More info
         </a>
       </div>
