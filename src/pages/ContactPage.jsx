@@ -1,8 +1,18 @@
 import React from "react";
+import { useEffect, useContext } from "react";
 import oscarcontact from "../assets/imagenes/me_foto_contact.png";
 import messageIcon from "../assets/imagenes/mensaje.png";
+import oscarLogoBlanco from "../assets/imagenes/oscar-logo-blanco.png";
+import { NavContext } from "../context/nav.context";
 
 export default function ContactPage() {
+  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+
+  useEffect(() => {
+    setBackgroundColor("bg-[#392F5A]");
+    setTextColor("text-white");
+    setLogo(oscarLogoBlanco)
+  });
   return (
     <div className="bg-[#392F5A] min-h-screen flex items-center content-center">
       <div className="w-full flex flex-col md:flex-row items-center justify-between gap-8 mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">

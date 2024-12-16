@@ -1,6 +1,9 @@
 import React from "react";
+import { useEffect, useContext } from "react";
 import oscarAbout from "../assets/imagenes/me_foto_aboutme.png";
 import ExperienceSection from "../componentes/ExperienceSection";
+import { NavContext } from "../context/nav.context";
+import oscarLogoBlanco from "../assets/imagenes/oscar-logo-blanco.png";
 
 export default function AboutPage() {
   const cards = [
@@ -27,6 +30,13 @@ export default function AboutPage() {
       items: ["Curiosity", "Sharp eye to detail", "Respectful", "Open minded"],
     },
   ];
+  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+
+  useEffect(() => {
+    setBackgroundColor("bg-[#392F5A]");
+    setTextColor("text-white");
+    setLogo(oscarLogoBlanco)
+  });
 
   return (
     <div>
