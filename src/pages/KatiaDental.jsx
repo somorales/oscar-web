@@ -28,11 +28,11 @@ export default function KatiaDental() {
         </div>
 
         {/* Right side placeholder for phone image */}
-        <div className="min-h-[500px] col-span-3">
+        <div className="min-h-[800px] col-span-3">
           <img
             src={desktop}
             alt="phone"
-            className="h-[450px] object-cover absolute bottom-1 mb-10"
+            className="h-[400px]  object-cover absolute bottom-1 mb-10"
           />
         </div>
       </div>
@@ -40,7 +40,7 @@ export default function KatiaDental() {
       <KatiaDentalProject />
 
       <div className="my-10 flex flex-col items-center justify-center gap-2">
-        <button className="bg-white border-2 border-black rounded-3xl hover:bg-gray-200 px-3.5 py-2.5 shadow-sm w-60 font-bold">
+        <button className="bg-white border-2 border-black rounded-3xl hover:bg-[#52B6B9] px-3.5 py-2.5 shadow-sm w-60 font-bold">
           More info
         </button>
       </div>
