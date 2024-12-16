@@ -1,8 +1,19 @@
 import React from 'react'
+import { useContext, useEffect } from 'react';
 import desktop from "../assets/imagenes/desktop_Katia2.png";
 import KatiaDentalProject from '../componentes/KatiaDentalProject';
+import { NavContext } from '../context/nav.context';
+import oscarLogo from "../assets/imagenes/oscar-logo.png";
 
 export default function KatiaDental() {
+  const { setBackgroundColor, setTextColor, setLogo } = useContext(NavContext);
+
+  useEffect(() => {
+    setBackgroundColor("bg-[#A3E6E6]");
+    setTextColor("text-black")
+    setLogo(oscarLogo)
+  });
+
   return (
     <div>
       <div className="min-h-screen bg-[#A3E6E6] flex items-center justify-between p-8 lg:p-16">
