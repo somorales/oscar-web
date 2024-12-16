@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext, useEffect } from "react";
-import desktop from "../assets/imagenes/desktop_Katia2.png";
+import desktop from "../assets/imagenes/desktop_katia2.png";
 import KatiaDentalProject from "../componentes/KatiaDentalProject";
 import { NavContext } from "../context/nav.context";
 import oscarLogo from "../assets/imagenes/oscar-logo.png";
