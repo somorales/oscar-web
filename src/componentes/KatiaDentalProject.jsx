@@ -3,7 +3,7 @@ import screen from "../assets/imagenes/Google Chrome - Light.png";
 
 export default function KatiaDEntalProyect() {
   return (
-    <div>
+    <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 pt-24">
       <div className="aspect-auto">
         <img
           src={screen}
@@ -15,8 +15,8 @@ export default function KatiaDEntalProyect() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-6">
           <h2 className="text-l font-mediun mb-3">
-            This was a project I worked on when I was a designer at “Cronuts
-            Digital”
+            This was a project I worked on when I was a designer at "Cronuts
+            Digital"
           </h2>
 
           <h2 className="text-lg font-semibold mb-3">Frist Steps:</h2>
