@@ -13,15 +13,15 @@ export default function NavBar() {
       >
         <div className="lg:flex relative flex items-center py-[2.125rem]">
           <div className="flex-none text-slate-900">
-            <div className="h-6 w-auto">
+            <div className="w-auto">
               <Link to="/">
                 <span className="sr-only">Oscar</span>
-                <img alt="" src={oscarLogoBlanco} className="h-8 w-auto" />
+                <img alt="" src={oscarLogoBlanco} className="h-10 w-auto" />
               </Link>
             </div>
           </div>
 
-          <div className="flex lg:justify-end lg:w-full">
+          <div className="flex lg:justify-end lg:w-full text-lg font-normal">
             <>
               <Link to="/about" className="ml-8 text-white hover:text-lg ">
                 About me

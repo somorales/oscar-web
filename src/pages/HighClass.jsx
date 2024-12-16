@@ -24,7 +24,7 @@ export default function HighClass() {
             <img
               src={phone}
               alt="phone"
-              className="h-[850px] object-cover"
+              className="h-[800px] lg:h-[850px] object-cover"
             />
           </div>
         </div>
