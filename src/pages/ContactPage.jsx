@@ -31,13 +31,13 @@ export default function ContactPage() {
 
           <div className="flex flex-col gap-4 w-full max-w-md">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/oscaralan/"target="_blank"
               className="w-full px-6 py-3 rounded-full border-2 border-white text-white text-center font-medium hover:bg-white hover:text-indigo-900 transition-colors"
             >
               LinkedIn
             </a>
             <a
-              href="#"
+              href="mailto:oscaralan.rg@gmail.com" target="_blank"
               className="w-full px-6 py-3 rounded-full border-2 border-white text-white text-center font-medium hover:bg-white hover:text-indigo-900 transition-colors"
             >
               Send me a message

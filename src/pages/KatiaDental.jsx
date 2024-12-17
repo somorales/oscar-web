@@ -41,9 +41,9 @@ export default function KatiaDental() {
       <KatiaDentalProject />
 
       <div className="my-10 flex flex-col items-center justify-center gap-2">
-        <button className="bg-white border-2 border-black rounded-3xl hover:bg-[#52B6B9] px-3.5 py-2.5 shadow-sm w-60 font-bold">
+        <a   href="https://www.behance.net/gallery/195855301/UI-Design-Portfolio-Landing-Page"  target="_blank"  className="bg-white border-2 border-black rounded-3xl hover:bg-[#52B6B9] px-3.5 py-2.5 shadow-sm w-60 font-bold text-center">
           More info
-        </button>
+        </a>
       </div>
     </div>
   );

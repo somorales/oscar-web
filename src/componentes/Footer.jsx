@@ -9,13 +9,13 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/oscaralan/",
       alt: "LinkedIn Profile",
       icon: linkedinIcon,
     },
-    { name: "Behance", href: "#", alt: "Behance Portfolio", icon: beIcon },
-    { name: "Email", href: "#", alt: "Email Contact", icon: emailIcon },
-    { name: "Instagram", href: "#", alt: "Instagram Profile", icon: igIcon },
+    { name: "Behance", href: "https://www.behance.net/OscarAlan", alt: "Behance Portfolio", icon: beIcon },
+    { name: "Email", href: "mailto:oscaralan.rg@gmail.com", alt: "Email Contact", icon: emailIcon },
+    { name: "Instagram", href: "https://www.instagram.com/oskshootin/?igsh=ZXQxM2F4M25rMnlh#", alt: "Instagram Profile", icon: igIcon },
   ];
 
   return (
@@ -41,6 +41,7 @@ export default function Footer() {
               <a
                 key={link.name}
                 href={link.href}
+                target="_blank"
                 className="block"
                 aria-label={link.name}
               >
