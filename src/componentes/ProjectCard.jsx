@@ -1,5 +1,5 @@
 export default function ProjectCard(props) {
-  const { title, company, tags } = props;
+  const { title, company, tags, link } = props;
 
   return (
     <div className="bg-[#F4F4F5] rounded-3xl p-8 mb-4 flex items-center justify-between">
@@ -19,7 +19,7 @@ export default function ProjectCard(props) {
             </span>
           ))}
         </div>
-        <a href="#" className="text-2xl text-gray-900  hover:text-[#52B6B9] font-bold hover:underline mx-8">
+        <a href={link} target="_blank" className="text-2xl text-gray-900  hover:text-[#52B6B9] font-bold hover:underline mx-8">
           More info
         </a>
       </div>
