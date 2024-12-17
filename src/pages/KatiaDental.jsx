@@ -19,7 +19,7 @@ export default function KatiaDental() {
     <div>
       <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 bg-[#A3E6E6] md:min-h-screen grid grid-cols-5 pb-8 lg:pb-16 items-end relative">
         {/* Left side content */}
-        <div className="col-span-2 pb-[6rem]">
+        <div className="col-span-2 pb-[8rem]">
           <h1 className="text-4xl lg:text-6xl font-bold text-[#0B9B9B]">
             Katia Dental
           </h1>

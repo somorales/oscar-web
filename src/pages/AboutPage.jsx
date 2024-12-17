@@ -103,9 +103,9 @@ export default function AboutPage() {
             ))}
           </div>
           <div className="mt-10 flex flex-col items-center justify-center gap-2">
-          <button className="bg-[#392F5A] border-2 border-white rounded-3xl hover:bg-gray-200 px-3.5 py-2.5 shadow-sm w-60 font-bold">
+          <a href="mailto:oscaralan.rg@gmail.com" target="_blank" className="bg-[#392F5A] border-2 border-white rounded-3xl hover:bg-[#52B6B9]  hover:border-black hover:text-black  px-3.5 py-2.5 shadow-sm w-60 font-bold text-center">
             Let's connect
-          </button>
+          </a>
         </div>
         </div>
       </div>
