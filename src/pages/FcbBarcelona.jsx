@@ -19,7 +19,7 @@ export default function FcbBarcelona() {
        <div className="bg-[#FBB5C3]">
 
        
-      <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 min-h-screen grid grid-cols-2 items-end">
+      <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 md:min-h-screen grid grid-cols-2 items-end">
         {/* Left side content */}
         <div className="pb-[11rem]">
           <h1 className="lg:text-7xl font-bold text-[#9E0925] pb-4">FCB Barça Academy</h1>
@@ -29,7 +29,7 @@ export default function FcbBarcelona() {
         </div>
 
         {/* Right side placeholder for phone image */}
-        <div className="flex justify-center pb-32">
+        <div className="flex justify-center pb-32 h-[800px]">
           <img
             src={phone}
             alt="phone"

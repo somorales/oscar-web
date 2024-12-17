@@ -19,7 +19,7 @@ export default function Agora() {
   return (
     <div>
       <div className="bg-[#D7C0F4]">
-        <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 min-h-screen grid grid-cols-2 items-end">
+        <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 md:min-h-screen grid grid-cols-2 items-end">
           <div className="pb-[11rem]">
             <h1 className="lg:text-7xl font-bold text-[#5600C2] pb-4">Agora</h1>
             <p className="lg:text-3xl text-[#5600C2] max-w-md">
@@ -28,7 +28,7 @@ export default function Agora() {
           </div>
 
           {/* Right side placeholder for phone image */}
-          <div className="flex justify-center pb-32">
+          <div className="h-[800px] flex justify-center pb-32">
             <img
               src={phone}
               alt="phone"

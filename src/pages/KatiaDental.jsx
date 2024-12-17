@@ -17,9 +17,9 @@ export default function KatiaDental() {
 
   return (
     <div>
-      <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 bg-[#A3E6E6] grid grid-cols-5 pb-8 lg:pb-16 items-end relative">
+      <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 bg-[#A3E6E6] md:min-h-screen grid grid-cols-5 pb-8 lg:pb-16 items-end relative">
         {/* Left side content */}
-        <div className="col-span-2">
+        <div className="col-span-2 pb-[6rem]">
           <h1 className="text-4xl lg:text-6xl font-bold text-[#0B9B9B]">
             Katia Dental
           </h1>
@@ -29,11 +29,11 @@ export default function KatiaDental() {
         </div>
 
         {/* Right side placeholder for phone image */}
-        <div className="min-h-[800px] col-span-3">
+        <div className="h-[800px] col-span-3">
           <img
             src={desktop}
             alt="phone"
-            className="h-[400px]  object-cover absolute bottom-1 mb-10"
+            className="h-[400px]  object-cover absolute bottom-[6rem] mb-10"
           />
         </div>
       </div>

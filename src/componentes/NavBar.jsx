@@ -25,7 +25,7 @@ export default function NavBar() {
             </div>
           </div>
 
-          <div className="flex lg:justify-end lg:w-full text-lg font-normal items-center text-center">
+          <div className="hidden md:flex lg:justify-end lg:w-full text-lg font-normal items-center text-center">
             <>
               <Link to="/about" className={`w-28 px-2 py-1 ml-8 ${textColor} hover:rounded-3xl hover:border hover:${borderColor} hover:font-semibold hover:shadow-sm`}>
                 About me
