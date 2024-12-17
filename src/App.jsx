@@ -21,9 +21,9 @@ export default function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/high-class" element={<HighClass />} />
-        <Route path="/KatiaDental" element={<KatiaDental />} />
-        <Route path="/FCBBarcelona" element={<FcbBarcelona />} />
-        <Route path="/Agora" element={<Agora />} />
+        <Route path="/katia-dental" element={<KatiaDental />} />
+        <Route path="/fc-barcelona" element={<FcbBarcelona />} />
+        <Route path="/agora" element={<Agora />} />
       </Routes>
       <Footer />
     </>

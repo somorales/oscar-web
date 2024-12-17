@@ -81,7 +81,7 @@ export default function HomePage() {
               <div className="pointer-events-none absolute inset-px rounded-3xl shadow ring-1 ring-black/40"></div>
             </div>
           </Link>
-          <Link to="/KatiaDental">
+          <Link to="/katia-dental">
             <div className="relative lg:row-span-2 bg-[#A3E6E6] rounded-3xl h-[600px]">
               <div className="relative flex h-full flex-col overflow-hidden">
                 <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
@@ -104,7 +104,7 @@ export default function HomePage() {
             </div>
           </Link>
 
-          <Link to="/FCBBarcelona">
+          <Link to="/fc-barcelona">
             <div className="relative lg:row-span-2 bg-[#FBB5C3] rounded-3xl h-[600px]">
               <div className="relative flex h-full flex-col overflow-hidden">
                 <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
@@ -127,7 +127,7 @@ export default function HomePage() {
             </div>
           </Link>
 
-          <Link to="/Agora">
+          <Link to="/agora">
             <div className="relative lg:row-span-2 bg-[#D7C0F4] rounded-3xl h-[600px]">
               <div className="relative flex h-full flex-col overflow-hidden">
                 <div className="px-8 pb-3 pt-20 sm:px-10 sm:pb-0 sm:pt-20">
