@@ -20,7 +20,7 @@ export default function HighClass() {
       <div className="bg-[#6EAAF7]">
         <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 flex items-center md:min-h-screen md:grid md:grid-cols-2 md:items-end">
           {/* Left side content */}
-          <div className="p-5 md:pb-[14rem]">
+          <div className="p-5 md:pb-[11rem]">
           
               <h1 className="text-3xl md:text-7xl font-bold text-[#014FB5] pb-4">
                 HighClass
