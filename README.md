@@ -1,8 +1,8 @@
 # Oscar website
 
-## [See the App!](oscar-web.netlify.app)
+## [See the App!](https://oscar-web.netlify.app/)
 
-![quiz Logo](./src/assets/images/oscar-logo.png)
+![Logo](./src/assets/imagenes/oscar-logo.png)
 
 ## Description
 
