@@ -29,4 +29,4 @@ Personal website to dive into the work and creative process of a UX/UI designer.
 
 ### Model Planning
 
-[Model Planning Link](https://www.figma.com/design/7Ze9W69jep6CLucInntNqS/What-would-I--choose%3F?node-id=0-1&t=8pvbeymr08sIgqHu-1)
+[Model Planning Link](https://www.figma.com/design/Ocq1GxrByW47GxzS7Vct98/Portfolio_Web?node-id=0-1&t=0wJAL9RzAWYiCkB5-1)
