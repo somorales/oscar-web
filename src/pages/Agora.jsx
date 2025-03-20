@@ -19,16 +19,16 @@ export default function Agora() {
   return (
     <div>
       <div className="bg-[#D7C0F4]">
-        <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 md:min-h-screen grid grid-cols-2 items-end">
+        <div className="mx-auto max-w-container px-6 sm:px-8 lg:px-48 flex items-center md:min-h-screen md:grid md:grid-cols-2 md:items-end">
           <div className=" p-5 md:pb-[11rem]">
             <h1 className="lg:text-7xl font-bold text-[#5600C2] pb-4">Agora</h1>
-            <p className="lg:text-3xl text-[#5600C2] max-w-md">
+            <p className="text-xl md:text-3xl text-[#5600C2] max-w-md">
               Freelance project for an Artist in Barcelona
             </p>
           </div>
 
           {/* Right side placeholder for phone image */}
-          <div className="h-[800px] flex justify-center pb-32">
+          <div className=" hidden md:flex h-[800px]  justify-center pb-32"> 
             <img
               src={phone}
               alt="phone"

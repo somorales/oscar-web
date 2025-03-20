@@ -1,8 +1,32 @@
-# React + Vite
+# Oscar website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [See the App!](oscar-web.netlify.app)
 
-Currently, two official plugins are available:
+![quiz Logo](./src/assets/images/oscar-logo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+Personal website to dive into the work and creative process of a UX/UI designer.
+
+#### [Client Repo here](https://github.com/somorales/oscar-web)
+
+## Technologies, Libraries & APIs used
+
+- **Frontend:** React, HTML5, CSS3, JavaScript
+
+- **Styling:** Tailwind
+
+- **Version control:** GitHub
+- **Deployment:** Netlify (Frontend)
+
+## Links
+
+### Project
+
+[Repository Link Client](https://github.com/somorales/oscar-web)
+
+[Deploy Link](https://oscar-web.netlify.app/)
+
+### Model Planning
+
+[Model Planning Link](https://www.figma.com/design/7Ze9W69jep6CLucInntNqS/What-would-I--choose%3F?node-id=0-1&t=8pvbeymr08sIgqHu-1)

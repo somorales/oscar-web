@@ -29,7 +29,7 @@ export default function FcbBarcelona() {
         </div>
 
         {/* Right side placeholder for phone image */}
-        <div className="flex justify-center pb-32 h-[800px]">
+        <div className="hidden md:flex justify-center pb-32 h-[800px]">
           <img
             src={phone}
             alt="phone"
